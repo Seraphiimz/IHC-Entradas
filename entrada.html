@@ -1,0 +1,83 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title> ENTRADA - IFPB IHC</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Logotipo_IFET.svg/764px-Logotipo_IFET.svg.png" width="50" height="50" magin="auto" alt="">
+        </a>
+      </nav>
+      <hr>
+<div class="container">
+  <h2>Entrada Dropdown</h2>                                        
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+    </ul>
+  </div>
+</div>
+<div class="container">
+    <h2>Formulario Teste</h2>
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label class="col-sm-2 control-label">Focado</label>
+        <div class="col-sm-10">
+          <input class="form-control" id="focusedInput" type="text" value="">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="disabledInput" class="col-sm-2 control-label">Desabilitado</label>
+        <div class="col-sm-10">
+          <input class="form-control" id="disabledInput" type="text" placeholder="" disabled>
+        </div>
+      </div>
+      <fieldset disabled>
+        <div class="form-group">
+          <label for="disabledTextInput" class="col-sm-2 control-label">Entrada e lista de seleção desabilitadas (Fieldset desabilitado)</label>
+          <div class="col-sm-10">
+            <input type="text" id="disabledTextInput" class="form-control" placeholder="">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="disabledSelect" class="col-sm-2 control-label"></label>
+          <div class="col-sm-10">
+            <select id="disabledSelect" class="form-control">
+              <option>Seleção desativada</option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+      <div class="form-group has-success has-feedback">
+        <label class="col-sm-2 control-label" for="inputSuccess">Entrada com sucesso</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="inputSuccess">
+          <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+        </div>
+      </div>
+      <div class="form-group has-warning has-feedback">
+        <label class="col-sm-2 control-label" for="inputWarning">Entrada com aviso</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="inputWarning">
+          <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+        </div>
+      </div>
+      <div class="form-group has-error has-feedback">
+        <label class="col-sm-2 control-label" for="inputError">Entrada com error</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="inputError">
+          <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+          <hr>
+        <button type="button" class="btn btn-primary btn-sm btn-block">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>
